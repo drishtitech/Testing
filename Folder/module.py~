@@ -1,2 +1,0 @@
-import osv
-osv.F1(10,20)

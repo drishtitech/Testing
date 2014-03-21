@@ -1,0 +1,18 @@
+<?xml version ="1.0"?>
+<openerp>
+	<data>
+
+        <record id="action_account_report_cf" model="ir.actions.act_window">
+             <field name="name">Cash Flow Statement</field>
+             <field name="res_model">accounting.report</field>
+             <field name="type">ir.actions.act_window</field>
+             <field name="view_type">form</field>
+             <field name="view_mode">form</field>
+             <field name="view_id" ref="account.accounting_report_view"/>
+             <field name="target">new</field> <field name="context" eval="{'default_account_report_id':ref('account_financial_report_cashflow')}"/>
+        </record>
+
+        <menuitem  name="Cash Flow Statement" action="action_account_report_cf" id="menu_account_report_cf" parent="account.final_accounting_reports"/>
+
+	</data>
+</openerp>

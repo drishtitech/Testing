@@ -1,0 +1,39 @@
+<?xml version ="1.0"?>
+<openerp>
+	<data >
+
+        <record id="account_financial_report_cashflow" model="account.financial.report">
+            <field name="name">Cash Flow Statement</field>
+            <field name="type">sum</field>
+        </record>
+
+        <record id="account_financial_report_cf_operating_activities" model="account.financial.report">
+            <field name="name">Operating Activities</field>
+            <field name="parent_id" ref="account_financial_report_cashflow"/>
+            <field name="display_detail">detail_flat</field>
+            <field name="type">accounts</field>
+        </record>
+
+        <record id="account_financial_report_cf_investing_activities" model="account.financial.report">
+            <field name="name">Investing Activities</field>
+            <field name="parent_id" ref="account_financial_report_cashflow"/>
+            <field name="display_detail">detail_flat</field>
+            <field name="type">accounts</field>
+        </record>
+
+        <record id="account_financial_report_cf_financing_activities" model="account.financial.report">
+            <field name="name">Financing Activities</field>
+            <field name="parent_id" ref="account_financial_report_cashflow"/>
+            <field name="display_detail">detail_flat</field>
+            <field name="type">accounts</field>
+        </record>
+
+        <record id="account_financial_report_cf_incom_cash" model="account.financial.report">
+            <field name="name">Income Flows and Cash Flows</field>
+            <field name="parent_id" ref="account_financial_report_cashflow"/>
+            <field name="display_detail">detail_flat</field>
+            <field name="type">accounts</field>
+        </record>
+
+	</data>
+</openerp>
