@@ -1,0 +1,4 @@
+import Test
+a=Test.Test1()
+a.Display(10,20)
+
