@@ -1,0 +1,45 @@
+Training Session-
+
+Open Source ERP-ERP is a Buisness Management Software,which contains a set of integrated applications,which a company uses to store and maintain data within every steps of business application.
+
+Various Steps of Business Application-
+i.]Marketing and Sales
+ii.]Manufacturing
+iii.]Inventory Management
+iv.]Shipping and Payment
+v.]Product,Planning and Cost Development
+ERP Contains a database which is common for all applications.
+There are Various Modules called as functional areas in ERP-
+A.]CRM
+B.]Project Module
+C.]HR
+D.]Warehouse
+E.]Sales and Purchase Management
+F.]Payroll
+G.]Manufacturing
+CRM-Customer Relationship Management
+Lead-A Lead is a person who is interested to do a business with you.
+Opportunities-Base upon certain criteria we convert the lead into opportunity.
+Various Phases of Opportunity-
+1.]New
+2.]Proposition
+3.]Analysis
+4.]Qualification
+5.]Negotiation
+After the negotiation stage the opportunity is either won or lost.
+
+B.]PROJECT MODULE-
+		In the project module,for creating a new project click on the project tab,and create a new project.A project has various Phases and each Phase has a task.Whenever we create a project,a entry is made into analytic account,analytic account maintains records about the expenses of the 
+project.To enable analytic account feature,go to the settings and then accounting module section in the configuration section,and check the enable accounting check box.
+We can also create a timesheet,which maintains record about the time spent on making the project,the total time spent gets reduced from the total expenses of the project.
+
+C.]HR Module-
+   HR Module it is use to maintain the attendance record,leaves record,salary record of the employee.
+Leave Request-To create a leave request,click on leave request,then go to the list view,click on the create button.In the Description tab mention details of the leave.In the leave type mention the type of leave and in the duration tab mention the duration of the leave and then create.There is double validation option,in case of leave requests.Double validation is a two step validation,whenever a employee makes a request for the leave,first it is approved by Technical Manager,and then it is left for approval by the senior manager.
+
+Leave Allocation-These are the leaves which are allocated by the company to its employee.
+
+Attendance-It is use to maintain,track of the employee attendance record.
+Payroll-In this module we can compute the salary of the employee.We can create his salary slip,which describes the salary structure of the employee.
+
+ 
