@@ -1,0 +1,16 @@
+drishti@drishti-dev4:~$ python
+Python 2.7.3 (default, Sep 26 2013, 16:38:10) 
+[GCC 4.7.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from datetime import datetime
+>>> datetime.today()
+datetime.datetime(2014, 2, 25, 19, 5, 11, 809652)
+>>> from time import strftime
+>>> strftime("%d")
+'25'
+>>> strftime("%d %M %Y")
+'25 07 2014'
+>>> strftime("%d %m %Y")
+'25 02 2014'
+>>> strftime("%d-%m-%Y")
+'25-02-2014'
