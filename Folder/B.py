@@ -1,0 +1,4 @@
+import A,A
+
+a=A.A()
+a.display()
